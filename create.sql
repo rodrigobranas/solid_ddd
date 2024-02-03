@@ -14,7 +14,8 @@ create table branas.reservation (
 	checkin_date timestamp,
 	checkout_date timestamp,
 	price numeric,
-	status text
+	status text,
+	duration numeric
 );
 
 insert into branas.room (room_id, type, price) values ('aa354842-59bf-42e6-be3a-6188dbb5fff8', 'day', 1000);
